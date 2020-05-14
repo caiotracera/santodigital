@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #eeaeb8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body, input, button {
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+div.container {
+  margin: 0 auto;
+  background: #fff;
+  height: 80vh;
+  width: 80%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5vh;;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+
+  color: #d6d6d6;
+  padding: 0 30px;
+
+  text-transform: uppercase;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+header ul li a:hover{
+  color: #a8a8a8;
+}
+
+header div.button {
+  background: #bdc6fe;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+header div.button img {
+  padding-left: 10px;
+}
+
+header div.button button {
+  border: 0;
+  background: #6c72c9;
+
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+  color: #FFF;
+}
+
+header button div p {
+  background: #6c72c9;
+  border-radius: 30px;
+  padding: 0 15px
+}
+
+
+div.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 5vh;
+}
+
+div.content .text {
+  max-width: 25%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+div.content .text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+
+div.content .text p.sub-text {
+  font-size: 15px;
+  color: #ccc;
+  margin-bottom: 35px;
+}
+
+div.content .text button {
+  border: 0;
+  border-radius: 30px;
+  background: #6c72c9;
+  padding: 5px 35px;
+
+  color: #fff;
+}
+
+div.content img {
+  width: 450px;
+}
